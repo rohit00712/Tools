@@ -149,7 +149,7 @@ To use this method, run FileZilla, then:
 
 ## 1.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/Tools/blob/main/File_Transfer/images/1.PNG)
 
 You can then use the FTP app to move files from Windows to Linux and back using drag and drop.
 
@@ -174,25 +174,3 @@ You can then use the FTP app to move files from Windows to Linux and back using 
 `pscp username@<linux_IP>:/path/to/file.txt C:\path\to\destination\file.txt`
 
 -------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
